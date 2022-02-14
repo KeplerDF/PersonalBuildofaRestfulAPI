@@ -6,6 +6,7 @@ import java.util.Date;
 
 // This object acts as the storage for the ID of the sensor as well as its country and city
 // This is an object which can be later replaced with a handler which would send information to and from a database
+// This also stores the arraylist of metrics which it has collected with each update
 public class Sensor {
 
     private long sid = 0;
