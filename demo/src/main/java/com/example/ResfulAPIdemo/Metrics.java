@@ -3,6 +3,8 @@ package com.example.ResfulAPIdemo;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+//  This object serves as the storage and source of each individual measurement of temperature and humidity
+//  This object can be later replaced by a handler which can be directed to send information to and from a database
 public class Metrics {
 
     private final String temperature;
