@@ -1,0 +1,8 @@
+
+
+
+command to initiate a sensor      : "http://localhost:8080/sensor?country=ireland&city=dublin"
+
+command to update the sensor      : "http://localhost:8080/update?sensorid=1&temperature=30&humidity30"
+
+command to get the final response : "http://localhost:8080/infogetter?sensorid=1&timestart=2019-01-21T05:47:08.644&timeend=2023-01-10T05:47:08.644"
